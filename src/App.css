@@ -9,7 +9,9 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  /* background-color: #f7f7f7; */
+  background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,7 +91,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #9c88ff;
+  background-color: #5437ea;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
@@ -98,6 +100,10 @@ input[type='number'] {
   margin: 10px 0 30px;
   padding: 10px;
   width: 100%;
+}
+
+.btn:hover {
+  background-color: #58499f;
 }
 
 .btn:focus,
